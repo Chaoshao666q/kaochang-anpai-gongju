@@ -9,7 +9,7 @@ from openpyxl.styles import Font, PatternFill
 class ExamArrangeApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("沂水县第二实验中学考场安排工具")
+        self.root.title("第二实验中学考场安排工具")
         self.root.geometry("800x650")  # 微调高度适配删除行后的布局
         self.root.resizable(True, True)
 
